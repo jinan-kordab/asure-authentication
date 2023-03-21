@@ -1,0 +1,63 @@
+{
+  "name": "biorhythms",
+  "version": "0.1.0",
+  "private": true,
+  "resolutions": {
+    "buffer": "5.7.1"
+  },
+  "dependencies": {
+    "@azure/msal-browser": "^2.34.0",
+    "@azure/msal-react": "^1.5.4",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/pickers": "^3.3.10",
+    "@mui/material": "^5.11.12",
+    "@octokit/rest": "^19.0.7",
+    "@react-oauth/google": "^0.9.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "chart.js": "^4.2.1",
+    "http-proxy-middleware": "^2.0.6",
+    "install": "^0.13.0",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "msal": "^1.4.17",
+    "npm": "^9.6.2",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-github-login": "^1.0.3",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "^5.0.1",
+    "react-widgets": "^5.8.4",
+    "typeface-roboto": "^1.1.13",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
